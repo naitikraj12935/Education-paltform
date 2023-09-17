@@ -1,0 +1,98 @@
+/* Add these styles to your Home.css file or your preferred stylesheet */
+
+/* Styles for the entire Home component */
+.Home {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 3rem;
+    left: 15rem;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles for the Carousel container */
+.carousel {
+    width: 40rem; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 14px; /* Ensure the content overflows are hidden */
+}
+
+/* Styles for the individual carousel items (images) */
+.carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the height as needed */
+    overflow: hidden; /* Ensure images don't overflow */
+}
+
+.carousel .slide img {
+    width: 100%; /* Ensure images stretch to container width */
+    height: 100%; /* Ensure images stretch to container height */
+    object-fit: cover; /* Cover the entire slide, maintaining aspect ratio */
+}
+
+/* Styles for the indicator dots (optional) */
+ .carousel .control-dots {
+   /* Hide the indicator dots */
+   color: black;
+ }
+
+/* Styles for the active indicator dot (optional) */
+.carousel .control-dots .dot.selected {
+    background-color: #e85858; /* Color of the active indicator dot */
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 34rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(82px);
+    z-index: -5;
+    top: 0rem;
+    left: -7rem;
+}
+.blur1{
+    position: absolute;
+    width: 12rem;
+    height: 34rem;
+    border-radius: 50%;
+    background:rgb(195, 228, 236);
+    filter: blur(82px);
+    z-index: -5;
+    top: 15rem;
+    left: 45rem;
+}
+.quote{
+    position: absolute;
+    top: 40rem;
+    left: 5rem;
+    
+}
+.quote span{
+    
+    color: rgb(62, 225, 184);
+}
+.quote h1{
+    padding-top: 2rem;
+    position: absolute;
+    top: 4rem;
+    font-size: 3rem;
+    color: rgb(67, 66, 66);
+}
+    
+
+  
+/* .Home img {
+    position: absolute;
+    left: 8rem;
+    top: 5rem;
+   
+  
+ } */
+ 

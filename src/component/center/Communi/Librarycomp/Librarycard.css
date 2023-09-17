@@ -1,0 +1,77 @@
+/* Librarycard.css */
+
+.library-card {
+    perspective: 1000px;
+    margin: 1rem;
+  }
+  
+  .library-card-inner {
+    position: relative;
+    width: 200px;
+    height: 300px; /* Adjust the height as needed */
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .library-card:hover .library-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .library-card-front,
+  .library-card-back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .library-card-front {
+    background-color: #EA5455;
+    transform: rotateY(0deg);
+  }
+  
+  .library-card-back {
+    background-color: rgb(239, 239, 111);
+    transform: rotateY(180deg);
+  }
+  
+  .library-card-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .library-card-back p {
+    color: var(--black);
+    padding: 1rem;
+  }
+  
+  .read-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #EA5455;
+    color: #333;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .read-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .read-button:focus {
+    outline: none;
+  }
+  

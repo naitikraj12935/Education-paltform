@@ -1,0 +1,136 @@
+.scroll-bar {
+    height: 32rem;
+    width: 13rem;
+    border: 1px solid black;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 2.7rem;
+    overflow-y: scroll;
+    scrollbar-width: thin; /* For Firefox */
+  
+    /* Set the scrollbar thumb and track colors */
+    scrollbar-color: var(--black) rgba(142, 142, 250, 1); /* For Firefox */
+  }
+  
+  /* For WebKit browsers (Chrome, Safari) */
+  .scroll-bar::-webkit-scrollbar-thumb {
+    background-color: rgba(142, 142, 250, 1);
+    border-radius: 4px;
+  }
+  
+  .scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(142, 142, 250, 1);
+  }
+  
+  .scroll-bar::-webkit-scrollbar-track {
+    background-color: rgba(142, 142, 250, 1);
+  }
+  
+  /* ... your other styles ... */
+  
+
+img{
+    margin-right:1rem ;
+}
+.study{
+    padding: 1rem;
+}
+.study:hover{
+    background-color: #F96167;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #F9E795;
+}
+.home{
+    padding: 1rem;
+}
+.home:hover{
+    background-color: #F96167;
+    border-radius: 14px;
+    cursor: pointer;
+    color: #F9E795;
+}
+.batch{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.batch:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.school{
+    padding: 1rem;
+    border-radius: 14px;
+
+}
+.school:hover{
+    background-color: #F96167;
+   
+    cursor: pointer;
+}
+.test{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.test:hover{
+    background-color:#F9E795 ;
+    cursor: pointer;
+}
+.communication{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.communication:hover{
+    background-color: #F96167;
+   
+    cursor: pointer;
+}
+.library{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.library:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.scholar{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.scholar:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.result{
+   
+   
+    padding: 1rem;
+    border-radius: 14px;
+}
+.result:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+.motive{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.motive:hover{
+    background-color: #F96167;
+   
+   
+    cursor: pointer;
+}
+.see-more{
+    padding: 1rem;
+    border-radius: 14px;
+}
+.see-more:hover{
+    background-color: #F96167;
+   
+   
+    cursor: pointer;
+}

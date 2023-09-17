@@ -1,0 +1,79 @@
+.student-info-container {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.2s, box-shadow 0.3s;
+  }
+  
+  .student-info-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .info-data {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info-content {
+    margin-top: 0.5rem;
+    color: #444;
+  }
+  
+  .edit-button {
+    padding: 0.6rem 1.2rem;
+    background-color: #F96167;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+  
+  .edit-button:hover {
+    background-color: #F74357;
+  }
+  
+  .edit-button:focus {
+    outline: none;
+    background-color: #F96167;
+  }
+  
+  .edit-button:active {
+    background-color: #F74357;
+    transform: translateY(1px);
+  }
+  

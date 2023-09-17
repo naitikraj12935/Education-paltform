@@ -1,0 +1,10 @@
+.commnigroup{
+    position: absolute;
+    top: 10rem;
+    left: 17rem;
+    right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    row-gap: 0.5rem;
+    gap: 2.5rem; 
+}

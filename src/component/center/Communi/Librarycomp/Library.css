@@ -1,0 +1,11 @@
+.books{
+    position: absolute;
+    top: 10rem;
+    left: 19rem;
+    right: 2rem;
+    display: grid;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 40px;
+  padding: 20px;
+}

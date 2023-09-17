@@ -1,0 +1,134 @@
+.video-container {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #576574;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+}
+h1 span:nth-child(1){
+    color: orangered;
+}
+h1 span:nth-child(2){
+    color: orangered;
+}
+h1 span:nth-child(3){
+    color: orangered;
+}
+h1 span:nth-child(4){
+    color: orangered;
+}
+h1 span:nth-child(5){
+    color: rgb(233, 223, 219);
+}
+h1 span:nth-child(6){
+    color: rgb(233, 223, 219);
+}
+h1 span:nth-child(7){
+    color: rgb(109, 241, 72);
+}
+h1 span:nth-child(8){
+    color: rgb(109, 241, 72);
+}
+h1 span:nth-child(9){
+    color: rgb(109, 241, 72);
+}
+h1 span:nth-child(10){
+    color: rgb(109, 241, 72);
+}
+
+h1 span {
+    display: inline-block;
+    opacity: 0; /* Initial opacity set to 0 */
+}
+
+video {
+    width: 100%; /* Cover the entire width of the screen */
+    height: 100%; /* Cover the entire height of the screen */
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Put the video behind other content */
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        /* filter: blur(2px); */
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+
+h1 span:nth-child(1) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(2) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(3) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 1.5s;
+}
+
+/* Continue adjusting animation-delay for other span elements */
+
+
+h1 span:nth-child(4) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 2s;
+}
+
+h1 span:nth-child(5) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 2.5s;
+}
+
+h1 span:nth-child(6) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 3s;
+}
+
+h1 span:nth-child(7) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 3.5s;
+}
+
+h1 span:nth-child(8) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 4s;
+}
+
+h1 span:nth-child(9) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 4.5s;
+}
+
+h1 span:nth-child(10) {
+    animation: animate 5.5s linear infinite;
+    animation-delay: 5s; /* Adjusted delay */
+}

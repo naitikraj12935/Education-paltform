@@ -1,0 +1,97 @@
+/* Card.css */
+
+.card {
+    perspective: 1000px;
+  }
+  
+  .card-inners {
+    position: relative;
+    width: 300px;
+    height: 400px; /* Adjust the height as needed */
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .card-inners {
+    transform: rotateY(180deg);
+  }
+  
+  .card-fronts,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card-fronts {
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    background-color: #F96167;
+    transform: rotateY(180deg);
+  }
+  
+  .card-images {
+    width: 200px;
+    height: 200px;
+    border-radius: 14%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .card-start {
+    font-size: 0.9rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .explore-button,
+  .buy-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .explore-button {
+    background-color: #F9E795;
+    color: #333;
+  }
+  
+  .buy-button {
+    background-color: #F96167;
+    color: white;
+  }
+  
+  .explore-button:hover,
+  .buy-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .explore-button:focus,
+  .buy-button:focus {
+    outline: none;
+  }
+  

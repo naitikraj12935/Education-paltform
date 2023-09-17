@@ -1,3 +1,18 @@
+:root
+{
+  --yellow: #F5C32C;
+    --orange : #FCA61F;
+    --black : #242D49;
+    --gray : #788097;
+    --blueCard : #DDF8FE;
+    --backgrouund:var(--orange);
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+    --boxShadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    --boxShadowThunder: 0px 4px 8px rgba(255, 0, 0, 0.6);
+}
 .App {
   text-align: center;
 }
@@ -12,6 +27,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.button{
+  
+  border-radius: 34px;
+   border:none;
+   color: white;
+   font-size: 16px;
+   padding: 11px 26px 9px 26px;
+   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+     box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+ 
+ }
+ 
 
 .App-header {
   background-color: #282c34;
@@ -36,3 +63,4 @@
     transform: rotate(360deg);
   }
 }
+
